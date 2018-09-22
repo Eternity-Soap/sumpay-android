@@ -1,4 +1,6 @@
-![ƀ](/images/iconn.png) tortillawallet for Android
+![ƀ](/images/iconn.png) 
+
+## tortillawallet for Android
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
