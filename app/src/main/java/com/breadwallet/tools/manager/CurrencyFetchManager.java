@@ -183,7 +183,7 @@ public class CurrencyFetchManager {
 
 
     public static JSONArray getJSonArray(Activity activity) {
-        String jsonString = callURL(activity, "https://litecoin.com/api/v1/rates");
+        String jsonString = callURL(activity, "http://159.65.72.249/sumprice/price.json");
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
         try {
@@ -192,9 +192,9 @@ public class CurrencyFetchManager {
         }
         return jsonArray == null ? getBackUpJSonArray(activity) : jsonArray;
     }
-
-    public static JSONArray getBackUpJSonArray(Activity activity) {
-        String jsonString = callURL(activity, "https://bitpay.com/rates");
+//    Backup pricing array
+//    public static JSONArray getBackUpJSonArray(Activity activity) {
+//        String jsonString = callURL(activity, "https://bitpay.com/rates");
 
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
