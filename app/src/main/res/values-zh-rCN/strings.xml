@@ -77,7 +77,7 @@
   <!-- Approve button label -->
   <string name="BitID.approve">批准</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s 正使用您的莱特币钱包请求验证</string>
+  <string name="BitID.authenticationRequest">%1$s 正使用您的总和硬币钱包请求验证</string>
   <!-- Deny button label -->
   <string name="BitID.deny">拒绝</string>
   <!-- BitID error alert title -->
