@@ -41,8 +41,8 @@ public class BRExchange {
     private static final String TAG = BRExchange.class.getName();
 
     public static BigDecimal getMaxAmount(Context context, String iso) {
-        final long MAX_BTC = 84000000;
-        if (iso.equalsIgnoreCase("LTC"))
+        final long MAX_BTC = 100000000;
+        if (iso.equalsIgnoreCase("SUM"))
             return getBitcoinForSatoshis(context, new BigDecimal(MAX_BTC * 100000000));
         CurrencyEntity ent = CurrencyDataSource.getInstance().getCurrencyByIso(iso);
         if (ent == null) throw new RuntimeException("no currency in DB for: " + iso);
