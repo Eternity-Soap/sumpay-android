@@ -1,4 +1,4 @@
-![ƀ](/images/icon.png) breadwallet for Android
+![ƀ](/images/icon.png) tortillawallet for Android
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
