@@ -129,9 +129,9 @@ public class BRConstants {
     public static final String fingerprintSpendingLimit = "fingerprint-spending-limit";
     public static final String transactionDetails = "transaction-details";
 //    public static final String manageWallet = "manage-wallet";
-    public static final String receive = "receive-litecoin";
+    public static final String receive = "receive-sumcoin";
 //    public static final String requestAmount = "request-amount";
-    public static final String send = "send-litecoin";
+    public static final String send = "send-sumcoin";
     public static final String walletDisabled = "wallet-disabled";
     public static final String resetPinWithPaperKey = "reset-pin-paper-key";
     public static final String setPin = "set-pin";
@@ -142,11 +142,11 @@ public class BRConstants {
     public static final String wipeWallet = "wipe-wallet";
 
     // or https://twitter.com/loafwallet
-    public static final String TWITTER_LINK = "https://twitter.com/ltcfoundation";
-    public static final String REDDIT_LINK = "https://www.reddit.com/r/litecoin";
-    public static final String BLOG_LINK = "http://loafwallet.org";
+    public static final String TWITTER_LINK = "https://twitter.com/sumcoinindex";
+    public static final String REDDIT_LINK = "https://www.reddit.com/r/sumcoin";
+    public static final String BLOG_LINK = "http://sumcoinwallet.org";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://explorer.litecointools.com/tx/" :"https://insight.litecore.io/tx/";
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://sumexplorer.com/tx/" :"https://insight.litecore.io/tx/";
 
     private BRConstants() {
     }
