@@ -75,7 +75,7 @@ model {
         }
 
         buildTypes {
-            gitUpdateModules()
+            //gitUpdateModules()
             release {
                 proguardFiles.add(file('proguard-rules.pro'))
                 minifyEnabled = false
